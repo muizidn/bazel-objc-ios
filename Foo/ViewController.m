@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-@import ModuleObjcFramework;
-@import SwiftFramework;
-#import <NoModuleObjcFramework/NoModuleObjcHelloWorld.h>
+//@import ModuleObjcFramework;
+//@import SwiftFramework;
+//#import <NoModuleObjcFramework/NoModuleObjcHelloWorld.h>
 
 
 @interface ViewController ()
@@ -20,10 +20,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSLog(@"ModuleObjcHelloWorld %@", [[ModuleObjcHelloWorld alloc] init]);
-    NSLog(@"SwiftHelloWorld %@", [[SwiftHelloWorld alloc] init]);
-    NSLog(@"NoModuleObjcHelloWorld %@", [[NoModuleObjcHelloWorld alloc] init]);
+    NSLog(@"Foo viewDidLoad");
+    //    NSLog(@"ModuleObjcHelloWorld %@", [[ModuleObjcHelloWorld alloc] init]);
+    //    NSLog(@"SwiftHelloWorld %@", [[SwiftHelloWorld alloc] init]);
+    //    NSLog(@"NoModuleObjcHelloWorld %@", [[NoModuleObjcHelloWorld alloc] init]);
 }
 
 
