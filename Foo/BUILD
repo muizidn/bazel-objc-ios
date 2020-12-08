@@ -18,7 +18,16 @@ objc_library(
         "**/*.xib",
         "**/*.xcassets/**",
         "**/*.lproj/**"
-    ])
+    ]),
+    enable_modules = True,
+    copts = [
+        "-I."
+    ],
+    deps = [
+        "//SwiftFramework:SwiftFrameworkLib",
+        "//ModuleObjcFramework:ModuleObjcFrameworkLib",
+        "//NoModuleObjcFramework:NoModuleObjcFrameworkLib"
+    ]
 )
 
 filegroup(
@@ -33,7 +42,7 @@ filegroup(
 )
 
 ios_application(
-    name = "FooBzl",
+    name = "Foo",
     bundle_id = "com.muiz.idn.Foo",
     families = [
         "iphone",
@@ -50,5 +59,8 @@ ios_application(
         ":FooLib",
     ],
     frameworks = [
+        "//SwiftFramework",
+        "//ModuleObjcFramework",
+        "//NoModuleObjcFramework",
     ]
 )

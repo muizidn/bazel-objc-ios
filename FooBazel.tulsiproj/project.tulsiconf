@@ -5,7 +5,9 @@
     }
   },
   "packages" : [
-    "Foo"
+    "Foo",
+    "ModuleObjcFramework",
+    "SwiftFramework"
   ],
   "projectName" : "FooBazel",
   "workspaceRoot" : ".."
