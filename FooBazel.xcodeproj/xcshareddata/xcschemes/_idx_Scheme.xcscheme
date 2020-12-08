@@ -1,0 +1,40 @@
+
+<Scheme version="1.3" LastUpgradeVersion="1000">
+    <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForProfiling="YES" buildForAnalyzing="YES" buildForArchiving="YES" buildForRunning="YES" buildForTesting="YES">
+                <BuildableReference BlueprintIdentifier="A7D2BDA47C39431600000000" BuildableIdentifier="primary" BuildableName="_idx_SwiftFrameworkLib_E86B43BC_ios_min13.2.framework" BlueprintName="_idx_SwiftFrameworkLib_E86B43BC_ios_min13.2" ReferencedContainer="container:FooBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForRunning="YES" buildForArchiving="YES" buildForTesting="YES" buildForAnalyzing="YES" buildForProfiling="YES">
+                <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="A7D2BDA4D567D46800000000" BuildableName="lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2.a" BlueprintName="_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2" ReferencedContainer="container:FooBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForArchiving="YES" buildForAnalyzing="YES" buildForTesting="YES" buildForProfiling="YES" buildForRunning="YES">
+                <BuildableReference BuildableName="lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2.a" ReferencedContainer="container:FooBazel.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="A7D2BDA4D567D46800000000" BlueprintName="_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForArchiving="YES" buildForTesting="YES" buildForAnalyzing="YES" buildForProfiling="YES" buildForRunning="YES">
+                <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="A7D2BDA4D567D46800000000" BuildableName="lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2.a" BlueprintName="_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2" ReferencedContainer="container:FooBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForArchiving="YES" buildForRunning="YES" buildForTesting="YES" buildForAnalyzing="YES" buildForProfiling="YES">
+                <BuildableReference ReferencedContainer="container:FooBazel.xcodeproj" BlueprintIdentifier="A7D2BDA432C4018C00000000" BuildableIdentifier="primary" BuildableName="lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0.a" BlueprintName="_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForProfiling="YES" buildForArchiving="YES" buildForTesting="YES" buildForRunning="YES" buildForAnalyzing="YES">
+                <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="A7D2BDA432C4018C00000000" BuildableName="lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0.a" ReferencedContainer="container:FooBazel.xcodeproj" BlueprintName="_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForArchiving="YES" buildForProfiling="YES" buildForRunning="YES" buildForAnalyzing="YES" buildForTesting="YES">
+                <BuildableReference BuildableName="lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0.a" ReferencedContainer="container:FooBazel.xcodeproj" BuildableIdentifier="primary" BlueprintName="_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0" BlueprintIdentifier="A7D2BDA432C4018C00000000"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForTesting="YES" buildForArchiving="YES" buildForAnalyzing="YES" buildForProfiling="YES" buildForRunning="YES">
+                <BuildableReference BlueprintIdentifier="A7D2BDA4DA4B6EDC00000000" BuildableIdentifier="primary" BuildableName="_idx_SwiftFrameworkLib_E86B43BC_ios_min13.0.framework" BlueprintName="_idx_SwiftFrameworkLib_E86B43BC_ios_min13.0" ReferencedContainer="container:FooBazel.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+    </BuildAction>
+    <TestAction shouldUseLaunchSchemeArgsEnv="YES" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" buildConfiguration="Debug">
+        <Testables></Testables>
+    </TestAction>
+    <LaunchAction useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" allowLocationSimulation="YES" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" buildConfiguration="Debug" debugDocumentVersioning="YES" launchStyle="0" debugServiceExtension="internal">
+        <EnvironmentVariables></EnvironmentVariables>
+    </LaunchAction>
+    <ProfileAction buildConfiguration="Release" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES" shouldUseLaunchSchemeArgsEnv="YES"></ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"></ArchiveAction>
+</Scheme>

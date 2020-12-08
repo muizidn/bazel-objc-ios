@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73F4D86257F4A11007A6668 /* NoModuleObjcBarQux.h in Headers */ = {isa = PBXBuildFile; fileRef = A73F4D84257F4A11007A6668 /* NoModuleObjcBarQux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73F4D87257F4A11007A6668 /* NoModuleObjcBarQux.m in Sources */ = {isa = PBXBuildFile; fileRef = A73F4D85257F4A11007A6668 /* NoModuleObjcBarQux.m */; };
 		A7C97FED257CE36E0076BE8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C97FEC257CE36E0076BE8D /* AppDelegate.m */; };
 		A7C97FF0257CE36E0076BE8D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C97FEF257CE36E0076BE8D /* SceneDelegate.m */; };
 		A7C97FF3257CE36E0076BE8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C97FF2257CE36E0076BE8D /* ViewController.m */; };
@@ -71,6 +73,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A73F4D84257F4A11007A6668 /* NoModuleObjcBarQux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoModuleObjcBarQux.h; sourceTree = "<group>"; };
+		A73F4D85257F4A11007A6668 /* NoModuleObjcBarQux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoModuleObjcBarQux.m; sourceTree = "<group>"; };
 		A7C97FE8257CE36E0076BE8D /* Foo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C97FEB257CE36E0076BE8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7C97FEC257CE36E0076BE8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -202,6 +206,8 @@
 				A7C9802F257CE3B40076BE8D /* Info.plist */,
 				A7C9803E257CE7F90076BE8D /* NoModuleObjcHelloWorld.h */,
 				A7C9803F257CE7F90076BE8D /* NoModuleObjcHelloWorld.m */,
+				A73F4D84257F4A11007A6668 /* NoModuleObjcBarQux.h */,
+				A73F4D85257F4A11007A6668 /* NoModuleObjcBarQux.m */,
 			);
 			path = NoModuleObjcFramework;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C98030257CE3B40076BE8D /* NoModuleObjcFramework.h in Headers */,
+				A73F4D86257F4A11007A6668 /* NoModuleObjcBarQux.h in Headers */,
 				A7C98040257CE7F90076BE8D /* NoModuleObjcHelloWorld.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C98041257CE7F90076BE8D /* NoModuleObjcHelloWorld.m in Sources */,
+				A73F4D87257F4A11007A6668 /* NoModuleObjcBarQux.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
