@@ -1,0 +1,6 @@
+framework module ModuleObjcFramework {
+  umbrella header "ModuleObjcFramework.h"
+
+  export *
+  module * { export * }
+}
