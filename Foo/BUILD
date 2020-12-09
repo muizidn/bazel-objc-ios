@@ -21,12 +21,13 @@ objc_library(
     ]),
     enable_modules = True,
     copts = [
-        "-I."
+        "-I.",
     ],
     deps = [
         "//SwiftFramework:SwiftFrameworkLib",
         "//ModuleObjcFramework:ModuleObjcFrameworkLib",
-        "//NoModuleObjcFramework:NoModuleObjcFrameworkLib"
+        "//NoModuleObjcFramework:NoModuleObjcFrameworkLib",
+        "//SQLite3RequiredFramework:SQLite3RequiredFrameworkLib"
     ]
 )
 
@@ -62,5 +63,6 @@ ios_application(
         "//SwiftFramework",
         "//ModuleObjcFramework",
         "//NoModuleObjcFramework",
+        "//SQLite3RequiredFramework"
     ]
 )
