@@ -1,17 +1,6 @@
 load("@build_bazel_rules_apple//apple:ios.bzl", "ios_framework")
 load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
 
-swift_library(
-    name = "SQLite3RequiredFrameworkLib_swift",
-    srcs = [
-        "Foo.swift"
-    ],
-    linkopts = [
-        "-lsqlite3",
-    ],
-    deps = [],
-)
-
 objc_library(
     name = "SQLite3RequiredFrameworkLib",
     module_name = "SQLite3RequiredFramework",
@@ -21,6 +10,9 @@ objc_library(
     hdrs = glob([
         "*.h",
     ]),
+    sdk_dylibs = [
+        "sqlite3"
+    ],
     visibility = ["//visibility:public"],
 )
 
@@ -39,7 +31,6 @@ ios_framework(
     ],
     visibility = ["//visibility:public"],
     deps = [
-        ":SQLite3RequiredFrameworkLib_swift",
         ":SQLite3RequiredFrameworkLib"
     ],
     frameworks = []
