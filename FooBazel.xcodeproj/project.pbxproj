@@ -15,6 +15,10 @@
 		204B67B479DBFC7A00000001 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A169F5A79DBFC7A00000000 /* SceneDelegate.m */; };
 		204B67B48B449AED00000000 /* ModuleObjcHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A169F5A8B449AED00000000 /* ModuleObjcHelloWorld.m */; };
 		204B67B48B449AED00000001 /* ModuleObjcHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A169F5A8B449AED00000000 /* ModuleObjcHelloWorld.m */; };
+		204B67B499BF5E1600000000 /* NoModuleObjcBarQux.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A169F5A99BF5E1600000000 /* NoModuleObjcBarQux.m */; };
+		204B67B499BF5E1600000001 /* NoModuleObjcBarQux.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A169F5A99BF5E1600000000 /* NoModuleObjcBarQux.m */; };
+		204B67B4D66D3A1300000000 /* NoModuleObjcHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A169F5AD66D3A1300000000 /* NoModuleObjcHelloWorld.m */; };
+		204B67B4D66D3A1300000001 /* NoModuleObjcHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A169F5AD66D3A1300000000 /* NoModuleObjcHelloWorld.m */; };
 		204B67B4E30541D800000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A169F5AE30541D800000000 /* ViewController.m */; };
 		204B67B4E30541D800000001 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A169F5AE30541D800000000 /* ViewController.m */; };
 		204B67B4E8012BB500000000 /* SwiftFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A169F5AE8012BB500000000 /* SwiftFramework.swift */; };
@@ -22,6 +26,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C7700E8F2A2ECDC500000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5661430E60A4DF700000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D2BDA42A2ECDC400000000;
+		};
+		C7700E8F5C08DCA500000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5661430E60A4DF700000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D2BDA45C08DCA400000000;
+		};
 		C7700E8F74859F9B00000000 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B5661430E60A4DF700000000 /* Project object */;
@@ -43,27 +59,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A169F5A0E03806F00000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/bazel-tulsi-includes/x/x/NoModuleObjcFramework/NoModuleObjcFramework-intermediates/Info.plist"; sourceTree = "<group>"; };
 		5A169F5A1307081100000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/bazel-tulsi-includes/x/x/ModuleObjcFramework/ModuleObjcFramework-intermediates/Info.plist"; sourceTree = "<group>"; };
 		5A169F5A1D12A05B00000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = Foo/BUILD; sourceTree = "<group>"; };
 		5A169F5A2367A17300000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Foo/ViewController.h; sourceTree = "<group>"; };
 		5A169F5A2D1BC90000000000 /* libwiftFramework-SwiftFrameworkLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwiftFramework-SwiftFrameworkLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A169F5A2D42396900000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = NoModuleObjcFramework/Info.plist; sourceTree = "<group>"; };
 		5A169F5A3272DE2300000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Foo/AppDelegate.m; sourceTree = "<group>"; };
-		5A169F5A39C4D42C00000000 /* lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5A3E992EB600000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Foo/Assets.xcassets; sourceTree = "<group>"; };
 		5A169F5A3F900ABD00000000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Foo/main.m; sourceTree = "<group>"; };
+		5A169F5A3FAF789000000000 /* NoModuleObjcHelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NoModuleObjcHelloWorld.h; path = NoModuleObjcFramework/NoModuleObjcHelloWorld.h; sourceTree = "<group>"; };
 		5A169F5A455C2B0200000000 /* Foo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Foo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5A45A490C000000000 /* SwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5A4717379200000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = SwiftFramework/BUILD; sourceTree = "<group>"; };
 		5A169F5A56B1BB0100000000 /* ModuleObjcFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ModuleObjcFramework.h; path = ModuleObjcFramework/ModuleObjcFramework.h; sourceTree = "<group>"; };
 		5A169F5A5C5912CE00000000 /* libModuleObjcFramework-ModuleObjcFrameworkLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libModuleObjcFramework-ModuleObjcFrameworkLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A169F5A643E3DF200000000 /* lib_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5A7046D8EC00000000 /* liboduleObjcFramework-ModuleObjcFrameworkLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liboduleObjcFramework-ModuleObjcFrameworkLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A169F5A71AB544600000000 /* liboModuleObjcFramework-NoModuleObjcFrameworkLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liboModuleObjcFramework-NoModuleObjcFrameworkLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A169F5A735BE4A800000000 /* libNoModuleObjcFramework-NoModuleObjcFrameworkLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libNoModuleObjcFramework-NoModuleObjcFrameworkLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5A78A1466A00000000 /* liboo-FooLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liboo-FooLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5A79DBFC7A00000000 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SceneDelegate.m; path = Foo/SceneDelegate.m; sourceTree = "<group>"; };
 		5A169F5A7BCAD23800000000 /* _idx_SwiftFrameworkLib_E86B43BC_ios_min13.0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _idx_SwiftFrameworkLib_E86B43BC_ios_min13.0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5A845E8EDA00000000 /* libSwiftFramework-SwiftFrameworkLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libSwiftFramework-SwiftFrameworkLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5A8B449AED00000000 /* ModuleObjcHelloWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ModuleObjcHelloWorld.m; path = ModuleObjcFramework/ModuleObjcHelloWorld.m; sourceTree = "<group>"; };
-		5A169F5AA7AF681400000000 /* lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A169F5A99BF5E1600000000 /* NoModuleObjcBarQux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NoModuleObjcBarQux.m; path = NoModuleObjcFramework/NoModuleObjcBarQux.m; sourceTree = "<group>"; };
+		5A169F5AA114D4D600000000 /* NoModuleObjcFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NoModuleObjcFramework.h; path = NoModuleObjcFramework/NoModuleObjcFramework.h; sourceTree = "<group>"; };
 		5A169F5AAC04B5F900000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/bazel-tulsi-includes/x/x/Foo/Foo-intermediates/Info.plist"; sourceTree = "<group>"; };
+		5A169F5AAC6D564800000000 /* lib_idx_FooLib_1EC081D9_ios_min13.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_FooLib_1EC081D9_ios_min13.2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5AB111AE7100000000 /* ModuleObjcHelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ModuleObjcHelloWorld.h; path = ModuleObjcFramework/ModuleObjcHelloWorld.h; sourceTree = "<group>"; };
 		5A169F5AB22ECDA500000000 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SceneDelegate.h; path = Foo/SceneDelegate.h; sourceTree = "<group>"; };
 		5A169F5AB2D1CE0D00000000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Foo/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,11 +96,17 @@
 		5A169F5AC9B746CE00000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = SwiftFramework/Info.plist; sourceTree = "<group>"; };
 		5A169F5AD0EB382800000000 /* _idx_SwiftFrameworkLib_E86B43BC_ios_min13.2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _idx_SwiftFrameworkLib_E86B43BC_ios_min13.2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5AD450E83F00000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = ModuleObjcFramework/BUILD; sourceTree = "<group>"; };
+		5A169F5AD66D3A1300000000 /* NoModuleObjcHelloWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NoModuleObjcHelloWorld.m; path = NoModuleObjcFramework/NoModuleObjcHelloWorld.m; sourceTree = "<group>"; };
+		5A169F5ADBFF858800000000 /* lib_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5AE30541D800000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Foo/ViewController.m; sourceTree = "<group>"; };
+		5A169F5AE397E33600000000 /* NoModuleObjcFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NoModuleObjcFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5AE8012BB500000000 /* SwiftFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftFramework.swift; path = SwiftFramework/SwiftFramework.swift; sourceTree = "<group>"; };
+		5A169F5AE99189B600000000 /* lib_idx_FooLib_1EC081D9_ios_min13.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_FooLib_1EC081D9_ios_min13.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A169F5AEB3976CC00000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Foo/AppDelegate.h; sourceTree = "<group>"; };
 		5A169F5AF262639400000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = ModuleObjcFramework/Info.plist; sourceTree = "<group>"; };
 		5A169F5AF75BD8D700000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/bazel-tulsi-includes/x/x/SwiftFramework/SwiftFramework-intermediates/Info.plist"; sourceTree = "<group>"; };
+		5A169F5AFBE05B8B00000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = NoModuleObjcFramework/BUILD; sourceTree = "<group>"; };
+		5A169F5AFC51C72800000000 /* NoModuleObjcBarQux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NoModuleObjcBarQux.h; path = NoModuleObjcFramework/NoModuleObjcBarQux.h; sourceTree = "<group>"; };
 		5A169F5AFD11A5A200000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Foo/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +124,7 @@
 			children = (
 				7D98A4ADA5ED5FC300000001 /* Foo */,
 				7D98A4AD4708BF7500000001 /* ModuleObjcFramework */,
+				7D98A4ADA3F9743B00000001 /* NoModuleObjcFramework */,
 				7D98A4AD445021D600000000 /* SwiftFramework */,
 			);
 			name = x;
@@ -146,6 +176,28 @@
 			name = ModuleObjcFramework;
 			sourceTree = "<group>";
 		};
+		7D98A4ADA3F9743B00000000 /* NoModuleObjcFramework */ = {
+			isa = PBXGroup;
+			children = (
+				5A169F5AFBE05B8B00000000 /* BUILD */,
+				5A169F5A2D42396900000000 /* Info.plist */,
+				5A169F5AFC51C72800000000 /* NoModuleObjcBarQux.h */,
+				5A169F5A99BF5E1600000000 /* NoModuleObjcBarQux.m */,
+				5A169F5AA114D4D600000000 /* NoModuleObjcFramework.h */,
+				5A169F5A3FAF789000000000 /* NoModuleObjcHelloWorld.h */,
+				5A169F5AD66D3A1300000000 /* NoModuleObjcHelloWorld.m */,
+			);
+			name = NoModuleObjcFramework;
+			sourceTree = "<group>";
+		};
+		7D98A4ADA3F9743B00000001 /* NoModuleObjcFramework */ = {
+			isa = PBXGroup;
+			children = (
+				7D98A4ADC828087C00000000 /* NoModuleObjcFramework-intermediates */,
+			);
+			name = NoModuleObjcFramework;
+			sourceTree = "<group>";
+		};
 		7D98A4ADA5ED5FC300000000 /* Foo */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,19 +238,30 @@
 			children = (
 				7D98A4ADA5ED5FC300000000 /* Foo */,
 				7D98A4AD4708BF7500000000 /* ModuleObjcFramework */,
+				7D98A4ADA3F9743B00000000 /* NoModuleObjcFramework */,
 				7D98A4ADD5E4A03C00000000 /* Products */,
 				7D98A4AD445021D600000001 /* SwiftFramework */,
 			);
 			name = mainGroup;
 			sourceTree = SOURCE_ROOT;
 		};
+		7D98A4ADC828087C00000000 /* NoModuleObjcFramework-intermediates */ = {
+			isa = PBXGroup;
+			children = (
+				5A169F5A0E03806F00000000 /* Info.plist */,
+			);
+			name = "NoModuleObjcFramework-intermediates";
+			sourceTree = "<group>";
+		};
 		7D98A4ADCE165FE000000000 /* Indexer */ = {
 			isa = PBXGroup;
 			children = (
 				5A169F5A7BCAD23800000000 /* _idx_SwiftFrameworkLib_E86B43BC_ios_min13.0.framework */,
 				5A169F5AD0EB382800000000 /* _idx_SwiftFrameworkLib_E86B43BC_ios_min13.2.framework */,
-				5A169F5AA7AF681400000000 /* lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0.a */,
-				5A169F5A39C4D42C00000000 /* lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2.a */,
+				5A169F5AE99189B600000000 /* lib_idx_FooLib_1EC081D9_ios_min13.0.a */,
+				5A169F5AAC6D564800000000 /* lib_idx_FooLib_1EC081D9_ios_min13.2.a */,
+				5A169F5A643E3DF200000000 /* lib_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0.a */,
+				5A169F5ADBFF858800000000 /* lib_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2.a */,
 			);
 			name = Indexer;
 			sourceTree = "<group>";
@@ -209,11 +272,14 @@
 				5A169F5A455C2B0200000000 /* Foo.app */,
 				7D98A4ADCE165FE000000000 /* Indexer */,
 				5A169F5ABB53D5F000000000 /* ModuleObjcFramework.framework */,
+				5A169F5AE397E33600000000 /* NoModuleObjcFramework.framework */,
 				5A169F5A45A490C000000000 /* SwiftFramework.framework */,
 				7D98A4ADF273012000000000 /* bazel-tulsi-includes */,
 				5A169F5AC965B27A00000000 /* libFoo-FooLib.a */,
 				5A169F5A5C5912CE00000000 /* libModuleObjcFramework-ModuleObjcFrameworkLib.a */,
+				5A169F5A735BE4A800000000 /* libNoModuleObjcFramework-NoModuleObjcFrameworkLib.a */,
 				5A169F5A845E8EDA00000000 /* libSwiftFramework-SwiftFrameworkLib.a */,
+				5A169F5A71AB544600000000 /* liboModuleObjcFramework-NoModuleObjcFrameworkLib.a */,
 				5A169F5A7046D8EC00000000 /* liboduleObjcFramework-ModuleObjcFrameworkLib.a */,
 				5A169F5A78A1466A00000000 /* liboo-FooLib.a */,
 				5A169F5A2D1BC90000000000 /* libwiftFramework-SwiftFrameworkLib.a */,
@@ -273,6 +339,25 @@
 			productReference = 5A169F5A5C5912CE00000000 /* libModuleObjcFramework-ModuleObjcFrameworkLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		A7D2BDA40FD0A81200000000 /* _idx_FooLib_1EC081D9_ios_min13.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F058352A5E95100000000 /* Build configuration list for PBXNativeTarget "_idx_FooLib_1EC081D9_ios_min13.2" */;
+			buildPhases = (
+				25DC1A8F0000000000000003 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB0E58A74859F9B00000000 /* PBXTargetDependency */,
+				DDB0E58A2A2ECDC500000000 /* PBXTargetDependency */,
+				DDB0E58A7C39431700000000 /* PBXTargetDependency */,
+				DDB0E58A2A2ECDC500000000 /* PBXTargetDependency */,
+			);
+			name = _idx_FooLib_1EC081D9_ios_min13.2;
+			productName = _idx_FooLib_1EC081D9_ios_min13.2;
+			productReference = 5A169F5AAC6D564800000000 /* lib_idx_FooLib_1EC081D9_ios_min13.2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		A7D2BDA421AF918A00000000 /* Foo-FooLib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041F0583D3A7EA6F00000000 /* Build configuration list for PBXNativeTarget "Foo-FooLib" */;
@@ -289,22 +374,53 @@
 			productReference = 5A169F5AC965B27A00000000 /* libFoo-FooLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A7D2BDA432C4018C00000000 /* _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0 */ = {
+		A7D2BDA427E8393600000000 /* oModuleObjcFramework-NoModuleObjcFrameworkLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 041F05833E7DBDC100000000 /* Build configuration list for PBXNativeTarget "_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0" */;
+			buildConfigurationList = 041F05831DC0159600000000 /* Build configuration list for PBXNativeTarget "oModuleObjcFramework-NoModuleObjcFrameworkLib" */;
 			buildPhases = (
-				25DC1A8F0000000000000000 /* Sources */,
+				FED79DA16C3203D900000001 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				DDB0E58A74859F9B00000000 /* PBXTargetDependency */,
-				DDB0E58ADA4B6EDD00000000 /* PBXTargetDependency */,
 			);
-			name = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0;
-			productName = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0;
-			productReference = 5A169F5AA7AF681400000000 /* lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0.a */;
+			name = "oModuleObjcFramework-NoModuleObjcFrameworkLib";
+			productName = "oModuleObjcFramework-NoModuleObjcFrameworkLib";
+			productReference = 5A169F5A71AB544600000000 /* liboModuleObjcFramework-NoModuleObjcFrameworkLib.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		A7D2BDA42A2ECDC400000000 /* _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F058370C0EB4B00000000 /* Build configuration list for PBXNativeTarget "_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2" */;
+			buildPhases = (
+				25DC1A8F0000000000000004 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB0E58A74859F9B00000000 /* PBXTargetDependency */,
+			);
+			name = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2;
+			productName = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2;
+			productReference = 5A169F5ADBFF858800000000 /* lib_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A7D2BDA447F2E87600000000 /* NoModuleObjcFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F0583D197B17900000000 /* Build configuration list for PBXNativeTarget "NoModuleObjcFramework" */;
+			buildPhases = (
+				FED79DA1C5F2CD3000000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB0E58A74859F9B00000000 /* PBXTargetDependency */,
+			);
+			name = NoModuleObjcFramework;
+			productName = NoModuleObjcFramework;
+			productReference = 5A169F5AE397E33600000000 /* NoModuleObjcFramework.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		A7D2BDA44BDABF8600000000 /* Foo */ = {
 			isa = PBXNativeTarget;
@@ -322,11 +438,27 @@
 			productReference = 5A169F5A455C2B0200000000 /* Foo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A7D2BDA45C08DCA400000000 /* _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F058396B8BADC00000000 /* Build configuration list for PBXNativeTarget "_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0" */;
+			buildPhases = (
+				25DC1A8F0000000000000001 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB0E58A74859F9B00000000 /* PBXTargetDependency */,
+			);
+			name = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0;
+			productName = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0;
+			productReference = 5A169F5A643E3DF200000000 /* lib_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		A7D2BDA47C39431600000000 /* _idx_SwiftFrameworkLib_E86B43BC_ios_min13.2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041F05832533077F00000000 /* Build configuration list for PBXNativeTarget "_idx_SwiftFrameworkLib_E86B43BC_ios_min13.2" */;
 			buildPhases = (
-				25DC1A8F0000000000000003 /* Sources */,
+				25DC1A8F0000000000000005 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -353,6 +485,22 @@
 			productName = SwiftFramework;
 			productReference = 5A169F5A45A490C000000000 /* SwiftFramework.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		A7D2BDA48ADB348200000000 /* NoModuleObjcFramework-NoModuleObjcFrameworkLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F05832600AD8D00000000 /* Build configuration list for PBXNativeTarget "NoModuleObjcFramework-NoModuleObjcFrameworkLib" */;
+			buildPhases = (
+				FED79DA16C3203D900000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB0E58A74859F9B00000000 /* PBXTargetDependency */,
+			);
+			name = "NoModuleObjcFramework-NoModuleObjcFrameworkLib";
+			productName = "NoModuleObjcFramework-NoModuleObjcFrameworkLib";
+			productReference = 5A169F5A735BE4A800000000 /* libNoModuleObjcFramework-NoModuleObjcFrameworkLib.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		A7D2BDA48E117EEA00000000 /* ModuleObjcFramework */ = {
 			isa = PBXNativeTarget;
@@ -386,28 +534,11 @@
 			productReference = 5A169F5A7046D8EC00000000 /* liboduleObjcFramework-ModuleObjcFrameworkLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A7D2BDA4D567D46800000000 /* _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 041F0583792605C400000000 /* Build configuration list for PBXNativeTarget "_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2" */;
-			buildPhases = (
-				25DC1A8F0000000000000002 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DDB0E58A74859F9B00000000 /* PBXTargetDependency */,
-				DDB0E58A7C39431700000000 /* PBXTargetDependency */,
-			);
-			name = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2;
-			productName = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2;
-			productReference = 5A169F5A39C4D42C00000000 /* lib_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		A7D2BDA4DA4B6EDC00000000 /* _idx_SwiftFrameworkLib_E86B43BC_ios_min13.0 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041F058325F0962700000000 /* Build configuration list for PBXNativeTarget "_idx_SwiftFrameworkLib_E86B43BC_ios_min13.0" */;
 			buildPhases = (
-				25DC1A8F0000000000000001 /* Sources */,
+				25DC1A8F0000000000000002 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -433,6 +564,25 @@
 			name = "wiftFramework-SwiftFrameworkLib";
 			productName = "wiftFramework-SwiftFrameworkLib";
 			productReference = 5A169F5A2D1BC90000000000 /* libwiftFramework-SwiftFrameworkLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A7D2BDA4ED919CF600000000 /* _idx_FooLib_1EC081D9_ios_min13.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F05838844E33300000000 /* Build configuration list for PBXNativeTarget "_idx_FooLib_1EC081D9_ios_min13.0" */;
+			buildPhases = (
+				25DC1A8F0000000000000000 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB0E58A74859F9B00000000 /* PBXTargetDependency */,
+				DDB0E58A5C08DCA500000000 /* PBXTargetDependency */,
+				DDB0E58ADA4B6EDD00000000 /* PBXTargetDependency */,
+				DDB0E58A5C08DCA500000000 /* PBXTargetDependency */,
+			);
+			name = _idx_FooLib_1EC081D9_ios_min13.0;
+			productName = _idx_FooLib_1EC081D9_ios_min13.0;
+			productReference = 5A169F5AE99189B600000000 /* lib_idx_FooLib_1EC081D9_ios_min13.0.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A7D2BDA4EFB50A9600000000 /* oo-FooLib */ = {
@@ -493,13 +643,18 @@
 				A7D2BDA421AF918A00000000 /* Foo-FooLib */,
 				A7D2BDA48E117EEA00000000 /* ModuleObjcFramework */,
 				A7D2BDA402554DB800000000 /* ModuleObjcFramework-ModuleObjcFrameworkLib */,
+				A7D2BDA447F2E87600000000 /* NoModuleObjcFramework */,
+				A7D2BDA48ADB348200000000 /* NoModuleObjcFramework-NoModuleObjcFrameworkLib */,
 				A7D2BDA488A043AC00000000 /* SwiftFramework */,
 				A7D2BDA4FF2E0AC600000000 /* SwiftFramework-SwiftFrameworkLib */,
 				EB182F7674859F9A00000000 /* _bazel_clean_ */,
-				A7D2BDA432C4018C00000000 /* _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0 */,
-				A7D2BDA4D567D46800000000 /* _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2 */,
+				A7D2BDA4ED919CF600000000 /* _idx_FooLib_1EC081D9_ios_min13.0 */,
+				A7D2BDA40FD0A81200000000 /* _idx_FooLib_1EC081D9_ios_min13.2 */,
+				A7D2BDA45C08DCA400000000 /* _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0 */,
+				A7D2BDA42A2ECDC400000000 /* _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2 */,
 				A7D2BDA4DA4B6EDC00000000 /* _idx_SwiftFrameworkLib_E86B43BC_ios_min13.0 */,
 				A7D2BDA47C39431600000000 /* _idx_SwiftFrameworkLib_E86B43BC_ios_min13.2 */,
+				A7D2BDA427E8393600000000 /* oModuleObjcFramework-NoModuleObjcFrameworkLib */,
 				A7D2BDA49956911A00000000 /* oduleObjcFramework-ModuleObjcFrameworkLib */,
 				A7D2BDA4EFB50A9600000000 /* oo-FooLib */,
 				A7D2BDA4E96EE9EC00000000 /* wiftFramework-SwiftFrameworkLib */,
@@ -592,6 +747,34 @@
 			shellPath = /bin/bash;
 			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //SwiftFramework:SwiftFrameworkLib --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
 		};
+		FED79DA16C3203D900000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //NoModuleObjcFramework:NoModuleObjcFrameworkLib --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+		FED79DA16C3203D900000001 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //NoModuleObjcFramework:NoModuleObjcFrameworkLib --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
 		FED79DA1819FC1B200000000 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 0;
@@ -620,6 +803,20 @@
 			shellPath = /bin/bash;
 			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //ModuleObjcFramework:ModuleObjcFramework --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
 		};
+		FED79DA1C5F2CD3000000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //NoModuleObjcFramework:NoModuleObjcFramework --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
 		FED79DA1FF182E8000000000 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 0;
@@ -641,7 +838,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				204B67B48B449AED00000000 /* ModuleObjcHelloWorld.m in Sources */,
 				204B67B43272DE2300000000 /* AppDelegate.m in Sources */,
 				204B67B479DBFC7A00000000 /* SceneDelegate.m in Sources */,
 				204B67B4E30541D800000000 /* ViewController.m in Sources */,
@@ -653,7 +849,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				204B67B4E8012BB500000000 /* SwiftFramework.swift in Sources */,
+				204B67B499BF5E1600000000 /* NoModuleObjcBarQux.m in Sources */,
+				204B67B4D66D3A1300000000 /* NoModuleObjcHelloWorld.m in Sources */,
+				204B67B48B449AED00000000 /* ModuleObjcHelloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,7 +859,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				204B67B48B449AED00000001 /* ModuleObjcHelloWorld.m in Sources */,
+				204B67B4E8012BB500000000 /* SwiftFramework.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DC1A8F0000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
 				204B67B43272DE2300000001 /* AppDelegate.m in Sources */,
 				204B67B479DBFC7A00000001 /* SceneDelegate.m in Sources */,
 				204B67B4E30541D800000001 /* ViewController.m in Sources */,
@@ -669,7 +874,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25DC1A8F0000000000000003 /* Sources */ = {
+		25DC1A8F0000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				204B67B499BF5E1600000001 /* NoModuleObjcBarQux.m in Sources */,
+				204B67B4D66D3A1300000001 /* NoModuleObjcHelloWorld.m in Sources */,
+				204B67B48B449AED00000001 /* ModuleObjcHelloWorld.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DC1A8F0000000000000005 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -680,6 +895,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DDB0E58A2A2ECDC500000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7D2BDA42A2ECDC400000000 /* _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2 */;
+			targetProxy = C7700E8F2A2ECDC500000000 /* PBXContainerItemProxy */;
+		};
+		DDB0E58A5C08DCA500000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7D2BDA45C08DCA400000000 /* _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0 */;
+			targetProxy = C7700E8F5C08DCA500000000 /* PBXContainerItemProxy */;
+		};
 		DDB0E58A74859F9B00000000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EB182F7674859F9A00000000 /* _bazel_clean_ */;
@@ -817,7 +1042,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "ModuleObjcFramework-ModuleObjcFrameworkLib";
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = ModuleObjcFramework;
@@ -826,6 +1051,39 @@
 			name = Debug;
 		};
 		928BF6B6992BFF9B00000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFramework";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.NoModuleObjcFramework;
+				PRODUCT_NAME = NoModuleObjcFramework;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = Debug;
+		};
+		928BF6B6992BFF9B00000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFrameworkLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "NoModuleObjcFramework-NoModuleObjcFrameworkLib";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = Debug;
+		};
+		928BF6B6992BFF9B00000007 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -842,7 +1100,7 @@
 			};
 			name = Debug;
 		};
-		928BF6B6992BFF9B00000006 /* Debug */ = {
+		928BF6B6992BFF9B00000008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -858,10 +1116,33 @@
 			};
 			name = Debug;
 		};
-		928BF6B6992BFF9B00000007 /* Debug */ = {
+		928BF6B6992BFF9B00000009 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/.",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_BWRS)/.",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_FooLib_1EC081D9_ios_min13.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		928BF6B6992BFF9B0000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -875,13 +1156,13 @@
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0;
+				PRODUCT_NAME = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Debug;
 		};
-		928BF6B6992BFF9B00000008 /* Debug */ = {
+		928BF6B6992BFF9B0000000B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -902,10 +1183,33 @@
 			};
 			name = Debug;
 		};
-		928BF6B6992BFF9B00000009 /* Debug */ = {
+		928BF6B6992BFF9B0000000C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/.",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_BWRS)/.",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_FooLib_1EC081D9_ios_min13.2;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		928BF6B6992BFF9B0000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -919,13 +1223,13 @@
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2;
+				PRODUCT_NAME = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Debug;
 		};
-		928BF6B6992BFF9B0000000A /* Debug */ = {
+		928BF6B6992BFF9B0000000E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -946,7 +1250,23 @@
 			};
 			name = Debug;
 		};
-		928BF6B6992BFF9B0000000B /* Debug */ = {
+		928BF6B6992BFF9B0000000F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFrameworkLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				PRODUCT_NAME = "oModuleObjcFramework-NoModuleObjcFrameworkLib";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = Debug;
+		};
+		928BF6B6992BFF9B00000010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -954,7 +1274,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				PRODUCT_NAME = "oduleObjcFramework-ModuleObjcFrameworkLib";
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = ModuleObjcFramework;
@@ -962,7 +1282,7 @@
 			};
 			name = Debug;
 		};
-		928BF6B6992BFF9B0000000C /* Debug */ = {
+		928BF6B6992BFF9B00000011 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -978,7 +1298,7 @@
 			};
 			name = Debug;
 		};
-		928BF6B6992BFF9B0000000D /* Debug */ = {
+		928BF6B6992BFF9B00000012 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1094,7 +1414,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "ModuleObjcFramework-ModuleObjcFrameworkLib";
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = ModuleObjcFramework;
@@ -1103,6 +1423,39 @@
 			name = Release;
 		};
 		928BF6B6B44C468300000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFramework";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.NoModuleObjcFramework;
+				PRODUCT_NAME = NoModuleObjcFramework;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = Release;
+		};
+		928BF6B6B44C468300000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFrameworkLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "NoModuleObjcFramework-NoModuleObjcFrameworkLib";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = Release;
+		};
+		928BF6B6B44C468300000007 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1119,7 +1472,7 @@
 			};
 			name = Release;
 		};
-		928BF6B6B44C468300000006 /* Release */ = {
+		928BF6B6B44C468300000008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1135,10 +1488,33 @@
 			};
 			name = Release;
 		};
-		928BF6B6B44C468300000007 /* Release */ = {
+		928BF6B6B44C468300000009 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/.",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_BWRS)/.",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_FooLib_1EC081D9_ios_min13.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		928BF6B6B44C46830000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1152,13 +1528,13 @@
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0;
+				PRODUCT_NAME = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Release;
 		};
-		928BF6B6B44C468300000008 /* Release */ = {
+		928BF6B6B44C46830000000B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -1179,10 +1555,33 @@
 			};
 			name = Release;
 		};
-		928BF6B6B44C468300000009 /* Release */ = {
+		928BF6B6B44C46830000000C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/.",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_BWRS)/.",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_FooLib_1EC081D9_ios_min13.2;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		928BF6B6B44C46830000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1196,13 +1595,13 @@
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2;
+				PRODUCT_NAME = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Release;
 		};
-		928BF6B6B44C46830000000A /* Release */ = {
+		928BF6B6B44C46830000000E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -1223,7 +1622,23 @@
 			};
 			name = Release;
 		};
-		928BF6B6B44C46830000000B /* Release */ = {
+		928BF6B6B44C46830000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFrameworkLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				PRODUCT_NAME = "oModuleObjcFramework-NoModuleObjcFrameworkLib";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = Release;
+		};
+		928BF6B6B44C468300000010 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1231,7 +1646,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				PRODUCT_NAME = "oduleObjcFramework-ModuleObjcFrameworkLib";
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = ModuleObjcFramework;
@@ -1239,7 +1654,7 @@
 			};
 			name = Release;
 		};
-		928BF6B6B44C46830000000C /* Release */ = {
+		928BF6B6B44C468300000011 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1255,7 +1670,7 @@
 			};
 			name = Release;
 		};
-		928BF6B6B44C46830000000D /* Release */ = {
+		928BF6B6B44C468300000012 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1397,7 +1812,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "--version";
 				OTHER_LDFLAGS = "--version";
@@ -1412,6 +1827,55 @@
 			name = __TulsiTestRunner_Release;
 		};
 		928BF6B6BE781A7900000005 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFramework";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.NoModuleObjcFramework;
+				PRODUCT_NAME = NoModuleObjcFramework;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		928BF6B6BE781A7900000006 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFrameworkLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "NoModuleObjcFramework-NoModuleObjcFrameworkLib";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		928BF6B6BE781A7900000007 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1436,7 +1900,7 @@
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		928BF6B6BE781A7900000006 /* __TulsiTestRunner_Release */ = {
+		928BF6B6BE781A7900000008 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1460,7 +1924,31 @@
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		928BF6B6BE781A7900000007 /* __TulsiTestRunner_Release */ = {
+		928BF6B6BE781A7900000009 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFrameworkLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "oModuleObjcFramework-NoModuleObjcFrameworkLib";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		928BF6B6BE781A790000000A /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1470,7 +1958,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "--version";
 				OTHER_LDFLAGS = "--version";
@@ -1484,7 +1972,7 @@
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		928BF6B6BE781A7900000008 /* __TulsiTestRunner_Release */ = {
+		928BF6B6BE781A790000000B /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1508,7 +1996,7 @@
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		928BF6B6BE781A7900000009 /* __TulsiTestRunner_Release */ = {
+		928BF6B6BE781A790000000C /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1658,7 +2146,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "--version";
 				OTHER_LDFLAGS = "--version";
@@ -1673,6 +2161,55 @@
 			name = __TulsiTestRunner_Debug;
 		};
 		928BF6B6F8E1A65D00000005 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFramework";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.muiz.idn.NoModuleObjcFramework;
+				PRODUCT_NAME = NoModuleObjcFramework;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		928BF6B6F8E1A65D00000006 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFrameworkLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "NoModuleObjcFramework-NoModuleObjcFrameworkLib";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		928BF6B6F8E1A65D00000007 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1697,7 +2234,7 @@
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		928BF6B6F8E1A65D00000006 /* __TulsiTestRunner_Debug */ = {
+		928BF6B6F8E1A65D00000008 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1721,7 +2258,31 @@
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		928BF6B6F8E1A65D00000007 /* __TulsiTestRunner_Debug */ = {
+		928BF6B6F8E1A65D00000009 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//NoModuleObjcFramework:NoModuleObjcFrameworkLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "oModuleObjcFramework-NoModuleObjcFrameworkLib";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = NoModuleObjcFramework;
+				TULSI_XCODE_VERSION = 11.2.1.11B500;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		928BF6B6F8E1A65D0000000A /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1731,7 +2292,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "--version";
 				OTHER_LDFLAGS = "--version";
@@ -1745,7 +2306,7 @@
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		928BF6B6F8E1A65D00000008 /* __TulsiTestRunner_Debug */ = {
+		928BF6B6F8E1A65D0000000B /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1769,7 +2330,7 @@
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		928BF6B6F8E1A65D00000009 /* __TulsiTestRunner_Debug */ = {
+		928BF6B6F8E1A65D0000000C /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -1793,7 +2354,7 @@
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		A73F4D74257F2F15007A6668 /* Debug */ = {
+		A7A18799257F890E00EF33E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -1803,7 +2364,7 @@
 			};
 			name = Debug;
 		};
-		A73F4D75257F2F15007A6668 /* Release */ = {
+		A7A1879A257F890E00EF33E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -1812,70 +2373,98 @@
 			};
 			name = Release;
 		};
-		A73F4D76257F2F15007A6668 /* __TulsiTestRunner_Debug */ = {
+		A7A1879B257F890E00EF33E1 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		A73F4D77257F2F15007A6668 /* __TulsiTestRunner_Release */ = {
+		A7A1879C257F890E00EF33E1 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		A73F4D78257F2F15007A6668 /* __TulsiTestRunner_Debug */ = {
+		A7A1879D257F890E00EF33E1 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0;
+				PRODUCT_NAME = _idx_FooLib_1EC081D9_ios_min13.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		A73F4D79257F2F15007A6668 /* __TulsiTestRunner_Release */ = {
+		A7A1879E257F890E00EF33E1 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0;
+				PRODUCT_NAME = _idx_FooLib_1EC081D9_ios_min13.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		A73F4D7A257F2F15007A6668 /* __TulsiTestRunner_Debug */ = {
+		A7A1879F257F890E00EF33E1 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2;
+				PRODUCT_NAME = _idx_FooLib_1EC081D9_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		A73F4D7B257F2F15007A6668 /* __TulsiTestRunner_Release */ = {
+		A7A187A0257F890E00EF33E1 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = _idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2;
+				PRODUCT_NAME = _idx_FooLib_1EC081D9_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		A73F4D7C257F2F15007A6668 /* __TulsiTestRunner_Debug */ = {
+		A7A187A1257F890E00EF33E1 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		A7A187A2257F890E00EF33E1 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		A7A187A3257F890E00EF33E1 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		A7A187A4257F890E00EF33E1 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		A7A187A5257F890E00EF33E1 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_SwiftFrameworkLib_E86B43BC_ios_min13.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		A73F4D7D257F2F15007A6668 /* __TulsiTestRunner_Release */ = {
+		A7A187A6257F890E00EF33E1 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_SwiftFrameworkLib_E86B43BC_ios_min13.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		A73F4D7E257F2F15007A6668 /* __TulsiTestRunner_Debug */ = {
+		A7A187A7257F890E00EF33E1 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_SwiftFrameworkLib_E86B43BC_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		A73F4D7F257F2F15007A6668 /* __TulsiTestRunner_Release */ = {
+		A7A187A8257F890E00EF33E1 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_SwiftFrameworkLib_E86B43BC_ios_min13.2;
@@ -1888,10 +2477,21 @@
 		041F058304B38D6B00000000 /* Build configuration list for PBXNativeTarget "SwiftFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				928BF6B6992BFF9B00000005 /* Debug */,
-				928BF6B6B44C468300000005 /* Release */,
-				928BF6B6F8E1A65D00000005 /* __TulsiTestRunner_Debug */,
-				928BF6B6BE781A7900000005 /* __TulsiTestRunner_Release */,
+				928BF6B6992BFF9B00000007 /* Debug */,
+				928BF6B6B44C468300000007 /* Release */,
+				928BF6B6F8E1A65D00000007 /* __TulsiTestRunner_Debug */,
+				928BF6B6BE781A7900000007 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041F05831DC0159600000000 /* Build configuration list for PBXNativeTarget "oModuleObjcFramework-NoModuleObjcFrameworkLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928BF6B6992BFF9B0000000F /* Debug */,
+				928BF6B6B44C46830000000F /* Release */,
+				928BF6B6F8E1A65D00000009 /* __TulsiTestRunner_Debug */,
+				928BF6B6BE781A7900000009 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1899,10 +2499,10 @@
 		041F05832435178A00000000 /* Build configuration list for PBXNativeTarget "wiftFramework-SwiftFrameworkLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				928BF6B6992BFF9B0000000D /* Debug */,
-				928BF6B6B44C46830000000D /* Release */,
-				928BF6B6F8E1A65D00000009 /* __TulsiTestRunner_Debug */,
-				928BF6B6BE781A7900000009 /* __TulsiTestRunner_Release */,
+				928BF6B6992BFF9B00000012 /* Debug */,
+				928BF6B6B44C468300000012 /* Release */,
+				928BF6B6F8E1A65D0000000C /* __TulsiTestRunner_Debug */,
+				928BF6B6BE781A790000000C /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1910,10 +2510,10 @@
 		041F05832533077F00000000 /* Build configuration list for PBXNativeTarget "_idx_SwiftFrameworkLib_E86B43BC_ios_min13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				928BF6B6992BFF9B0000000A /* Debug */,
-				928BF6B6B44C46830000000A /* Release */,
-				A73F4D7E257F2F15007A6668 /* __TulsiTestRunner_Debug */,
-				A73F4D7F257F2F15007A6668 /* __TulsiTestRunner_Release */,
+				928BF6B6992BFF9B0000000E /* Debug */,
+				928BF6B6B44C46830000000E /* Release */,
+				A7A187A7257F890E00EF33E1 /* __TulsiTestRunner_Debug */,
+				A7A187A8257F890E00EF33E1 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1921,21 +2521,21 @@
 		041F058325F0962700000000 /* Build configuration list for PBXNativeTarget "_idx_SwiftFrameworkLib_E86B43BC_ios_min13.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				928BF6B6992BFF9B00000008 /* Debug */,
-				928BF6B6B44C468300000008 /* Release */,
-				A73F4D7C257F2F15007A6668 /* __TulsiTestRunner_Debug */,
-				A73F4D7D257F2F15007A6668 /* __TulsiTestRunner_Release */,
+				928BF6B6992BFF9B0000000B /* Debug */,
+				928BF6B6B44C46830000000B /* Release */,
+				A7A187A5257F890E00EF33E1 /* __TulsiTestRunner_Debug */,
+				A7A187A6257F890E00EF33E1 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		041F05833E7DBDC100000000 /* Build configuration list for PBXNativeTarget "_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.0" */ = {
+		041F05832600AD8D00000000 /* Build configuration list for PBXNativeTarget "NoModuleObjcFramework-NoModuleObjcFrameworkLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				928BF6B6992BFF9B00000007 /* Debug */,
-				928BF6B6B44C468300000007 /* Release */,
-				A73F4D78257F2F15007A6668 /* __TulsiTestRunner_Debug */,
-				A73F4D79257F2F15007A6668 /* __TulsiTestRunner_Release */,
+				928BF6B6992BFF9B00000006 /* Debug */,
+				928BF6B6B44C468300000006 /* Release */,
+				928BF6B6F8E1A65D00000006 /* __TulsiTestRunner_Debug */,
+				928BF6B6BE781A7900000006 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1943,21 +2543,32 @@
 		041F05834FEAF43F00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A73F4D74257F2F15007A6668 /* Debug */,
-				A73F4D75257F2F15007A6668 /* Release */,
-				A73F4D76257F2F15007A6668 /* __TulsiTestRunner_Debug */,
-				A73F4D77257F2F15007A6668 /* __TulsiTestRunner_Release */,
+				A7A18799257F890E00EF33E1 /* Debug */,
+				A7A1879A257F890E00EF33E1 /* Release */,
+				A7A1879B257F890E00EF33E1 /* __TulsiTestRunner_Debug */,
+				A7A1879C257F890E00EF33E1 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		041F0583792605C400000000 /* Build configuration list for PBXNativeTarget "_idx_ModuleObjcFrameworkLib_FooLib_7B65E991_ios_min13.2" */ = {
+		041F058352A5E95100000000 /* Build configuration list for PBXNativeTarget "_idx_FooLib_1EC081D9_ios_min13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				928BF6B6992BFF9B00000009 /* Debug */,
-				928BF6B6B44C468300000009 /* Release */,
-				A73F4D7A257F2F15007A6668 /* __TulsiTestRunner_Debug */,
-				A73F4D7B257F2F15007A6668 /* __TulsiTestRunner_Release */,
+				928BF6B6992BFF9B0000000C /* Debug */,
+				928BF6B6B44C46830000000C /* Release */,
+				A7A1879F257F890E00EF33E1 /* __TulsiTestRunner_Debug */,
+				A7A187A0257F890E00EF33E1 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041F058370C0EB4B00000000 /* Build configuration list for PBXNativeTarget "_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928BF6B6992BFF9B0000000D /* Debug */,
+				928BF6B6B44C46830000000D /* Release */,
+				A7A187A3257F890E00EF33E1 /* __TulsiTestRunner_Debug */,
+				A7A187A4257F890E00EF33E1 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1965,10 +2576,21 @@
 		041F05837A5F0AD400000000 /* Build configuration list for PBXNativeTarget "SwiftFramework-SwiftFrameworkLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				928BF6B6992BFF9B00000006 /* Debug */,
-				928BF6B6B44C468300000006 /* Release */,
-				928BF6B6F8E1A65D00000006 /* __TulsiTestRunner_Debug */,
-				928BF6B6BE781A7900000006 /* __TulsiTestRunner_Release */,
+				928BF6B6992BFF9B00000008 /* Debug */,
+				928BF6B6B44C468300000008 /* Release */,
+				928BF6B6F8E1A65D00000008 /* __TulsiTestRunner_Debug */,
+				928BF6B6BE781A7900000008 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041F05838844E33300000000 /* Build configuration list for PBXNativeTarget "_idx_FooLib_1EC081D9_ios_min13.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928BF6B6992BFF9B00000009 /* Debug */,
+				928BF6B6B44C468300000009 /* Release */,
+				A7A1879D257F890E00EF33E1 /* __TulsiTestRunner_Debug */,
+				A7A1879E257F890E00EF33E1 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1987,10 +2609,21 @@
 		041F05839510AB4800000000 /* Build configuration list for PBXNativeTarget "oduleObjcFramework-ModuleObjcFrameworkLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				928BF6B6992BFF9B0000000B /* Debug */,
-				928BF6B6B44C46830000000B /* Release */,
-				928BF6B6F8E1A65D00000007 /* __TulsiTestRunner_Debug */,
-				928BF6B6BE781A7900000007 /* __TulsiTestRunner_Release */,
+				928BF6B6992BFF9B00000010 /* Debug */,
+				928BF6B6B44C468300000010 /* Release */,
+				928BF6B6F8E1A65D0000000A /* __TulsiTestRunner_Debug */,
+				928BF6B6BE781A790000000A /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041F058396B8BADC00000000 /* Build configuration list for PBXNativeTarget "_idx_NoModuleObjcFrameworkLib_ModuleObjcFrameworkLib_FDB4248E_ios_min13.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928BF6B6992BFF9B0000000A /* Debug */,
+				928BF6B6B44C46830000000A /* Release */,
+				A7A187A1257F890E00EF33E1 /* __TulsiTestRunner_Debug */,
+				A7A187A2257F890E00EF33E1 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2002,6 +2635,17 @@
 				928BF6B6B44C468300000003 /* Release */,
 				928BF6B6F8E1A65D00000003 /* __TulsiTestRunner_Debug */,
 				928BF6B6BE781A7900000003 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041F0583D197B17900000000 /* Build configuration list for PBXNativeTarget "NoModuleObjcFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928BF6B6992BFF9B00000005 /* Debug */,
+				928BF6B6B44C468300000005 /* Release */,
+				928BF6B6F8E1A65D00000005 /* __TulsiTestRunner_Debug */,
+				928BF6B6BE781A7900000005 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2020,10 +2664,10 @@
 		041F0583E05A95CE00000000 /* Build configuration list for PBXNativeTarget "oo-FooLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				928BF6B6992BFF9B0000000C /* Debug */,
-				928BF6B6B44C46830000000C /* Release */,
-				928BF6B6F8E1A65D00000008 /* __TulsiTestRunner_Debug */,
-				928BF6B6BE781A7900000008 /* __TulsiTestRunner_Release */,
+				928BF6B6992BFF9B00000011 /* Debug */,
+				928BF6B6B44C468300000011 /* Release */,
+				928BF6B6F8E1A65D0000000B /* __TulsiTestRunner_Debug */,
+				928BF6B6BE781A790000000B /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

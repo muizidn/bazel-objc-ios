@@ -9,6 +9,8 @@
     "//Foo:FooLib",
     "//ModuleObjcFramework:ModuleObjcFramework",
     "//ModuleObjcFramework:ModuleObjcFrameworkLib",
+    "//NoModuleObjcFramework:NoModuleObjcFramework",
+    "//NoModuleObjcFramework:NoModuleObjcFrameworkLib",
     "//SwiftFramework:SwiftFramework",
     "//SwiftFramework:SwiftFrameworkLib"
   ],
@@ -57,6 +59,7 @@
   "sourceFilters" : [
     "Foo/...",
     "ModuleObjcFramework/...",
+    "NoModuleObjcFramework/...",
     "SwiftFramework/...",
     "external/..."
   ]

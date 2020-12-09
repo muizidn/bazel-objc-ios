@@ -1,27 +1,27 @@
 
 <Scheme version="1.3" LastUpgradeVersion="1000">
-    <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
+    <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
         <BuildActionEntries>
-            <BuildActionEntry buildForTesting="YES" buildForAnalyzing="YES" buildForProfiling="YES" buildForArchiving="YES" buildForRunning="YES">
-                <BuildableReference BlueprintIdentifier="5CECA4C16310286C00000000" BuildableIdentifier="primary" BuildableName="libwiftFramework-SwiftFrameworkLib.a" BlueprintName="wiftFramework-SwiftFrameworkLib" ReferencedContainer="container:FooBazel.xcodeproj"></BuildableReference>
+            <BuildActionEntry buildForRunning="YES" buildForTesting="YES" buildForAnalyzing="YES" buildForArchiving="YES" buildForProfiling="YES">
+                <BuildableReference BlueprintName="wiftFramework-SwiftFrameworkLib" ReferencedContainer="container:FooBazel.xcodeproj" BuildableIdentifier="primary" BuildableName="libwiftFramework-SwiftFrameworkLib.a" BlueprintIdentifier="A7D2BDA4E96EE9EC00000000"></BuildableReference>
             </BuildActionEntry>
         </BuildActionEntries>
     </BuildAction>
-    <TestAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" buildConfiguration="__TulsiTestRunner_Debug" shouldUseLaunchSchemeArgsEnv="YES" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB">
+    <TestAction shouldUseLaunchSchemeArgsEnv="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" buildConfiguration="__TulsiTestRunner_Debug">
         <Testables></Testables>
         <BuildableProductRunnable runnableDebuggingMode="0">
-            <BuildableReference BuildableName="libwiftFramework-SwiftFrameworkLib.a" BlueprintName="wiftFramework-SwiftFrameworkLib" BuildableIdentifier="primary" BlueprintIdentifier="5CECA4C16310286C00000000" ReferencedContainer="container:FooBazel.xcodeproj"></BuildableReference>
+            <BuildableReference BlueprintName="wiftFramework-SwiftFrameworkLib" BuildableName="libwiftFramework-SwiftFrameworkLib.a" ReferencedContainer="container:FooBazel.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="A7D2BDA4E96EE9EC00000000"></BuildableReference>
         </BuildableProductRunnable>
     </TestAction>
-    <LaunchAction launchStyle="0" debugDocumentVersioning="YES" useCustomWorkingDirectory="NO" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" buildConfiguration="Debug" ignoresPersistentStateOnLaunch="NO" debugServiceExtension="internal" allowLocationSimulation="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB">
+    <LaunchAction buildConfiguration="Debug" launchStyle="0" allowLocationSimulation="YES" useCustomWorkingDirectory="NO" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" ignoresPersistentStateOnLaunch="NO" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" debugDocumentVersioning="YES" debugServiceExtension="internal">
         <EnvironmentVariables></EnvironmentVariables>
         <MacroExpansion>
-            <BuildableReference BlueprintIdentifier="5CECA4C16310286C00000000" BuildableName="libwiftFramework-SwiftFrameworkLib.a" BuildableIdentifier="primary" BlueprintName="wiftFramework-SwiftFrameworkLib" ReferencedContainer="container:FooBazel.xcodeproj"></BuildableReference>
+            <BuildableReference BuildableIdentifier="primary" BlueprintName="wiftFramework-SwiftFrameworkLib" BuildableName="libwiftFramework-SwiftFrameworkLib.a" ReferencedContainer="container:FooBazel.xcodeproj" BlueprintIdentifier="A7D2BDA4E96EE9EC00000000"></BuildableReference>
         </MacroExpansion>
     </LaunchAction>
-    <ProfileAction buildConfiguration="__TulsiTestRunner_Release" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES" shouldUseLaunchSchemeArgsEnv="YES">
+    <ProfileAction debugDocumentVersioning="YES" shouldUseLaunchSchemeArgsEnv="YES" useCustomWorkingDirectory="NO" buildConfiguration="__TulsiTestRunner_Release">
         <MacroExpansion>
-            <BuildableReference BlueprintName="wiftFramework-SwiftFrameworkLib" ReferencedContainer="container:FooBazel.xcodeproj" BlueprintIdentifier="5CECA4C16310286C00000000" BuildableName="libwiftFramework-SwiftFrameworkLib.a" BuildableIdentifier="primary"></BuildableReference>
+            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="A7D2BDA4E96EE9EC00000000" BlueprintName="wiftFramework-SwiftFrameworkLib" BuildableName="libwiftFramework-SwiftFrameworkLib.a" ReferencedContainer="container:FooBazel.xcodeproj"></BuildableReference>
         </MacroExpansion>
     </ProfileAction>
     <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>

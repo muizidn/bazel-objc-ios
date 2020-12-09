@@ -1,2 +1,10 @@
 build --incompatible_strict_action_env
 run --incompatible_strict_action_env
+
+build --apple_platform_type=ios
+build --verbose_failures
+build --bes_outerr_buffer_size=0
+build --apple_generate_dsym
+build --define=apple.propagate_embedded_extra_outputs=1
+build --features=debug_prefix_map_pwd_is_dot
+build --noexperimental_build_event_json_file_path_conversion
