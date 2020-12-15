@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-// @import ModuleObjcFramework;
+@import ModuleObjcFramework;
 // @import SwiftFramework;
 #import <NoModuleObjcFramework/NoModuleObjcFramework.h>
 #import <SQLite3RequiredFramework/SQLite3RequiredFramework.h>
@@ -26,7 +26,7 @@
     
     NSLog(@"Foo viewDidLoad");
     
-    // NSLog(@"ModuleObjcHelloWorld %@", [[ModuleObjcHelloWorld alloc] init]);
+    NSLog(@"ModuleObjcHelloWorld %@", [[ModuleObjcHelloWorld alloc] init]);
     // NSLog(@"SwiftHelloWorld %@", [[SwiftHelloWorld alloc] init]);
     
     NSLog(@"NoModuleObjcHelloWorld %@", [[NoModuleObjcHelloWorld alloc] init]);

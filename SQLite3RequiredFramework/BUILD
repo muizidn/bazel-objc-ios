@@ -1,5 +1,6 @@
 load("@build_bazel_rules_apple//apple:ios.bzl", "ios_framework")
 load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
+load("@rules_apple_line//apple:objc_library.bzl", "objc_library")
 
 objc_library(
     name = "SQLite3RequiredFrameworkLib",

@@ -1,5 +1,7 @@
 load("@build_bazel_rules_apple//apple:ios.bzl", "ios_application")
 load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
+load("@rules_apple_line//apple:objc_library.bzl", "objc_library")
+
 
 filegroup(
     name = "AppIcon",

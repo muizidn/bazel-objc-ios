@@ -7,6 +7,13 @@ git_repository(
     tag = "0.20.0",
 )
 
+git_repository(
+    name = "rules_apple_line",
+    remote = "https://github.com/line/rules_apple_line.git",
+    commit = "b5bdbc0fd320905ec3fc7d7a2a0b80987a877cd0",
+)
+
+
 load(
     "@build_bazel_rules_apple//apple:repositories.bzl",
     "apple_rules_dependencies",
@@ -27,6 +34,15 @@ load(
 )
 
 apple_support_dependencies()
+
+load(
+    "@rules_apple_line//apple:repositories.bzl",
+    "rules_apple_line_dependencies",
+)
+
+# If you want to lock apple_support, rules_apple and rules_swift to specific
+# versions, be sure to call this function after their repository rules.
+rules_apple_line_dependencies()
 
 load(
     "@com_google_protobuf//:protobuf_deps.bzl",

@@ -1,4 +1,5 @@
 load("@build_bazel_rules_apple//apple:ios.bzl", "ios_framework")
+load("@rules_apple_line//apple:objc_library.bzl", "objc_library")
 
 objc_library(
     name = "ModuleObjcFrameworkLib",
